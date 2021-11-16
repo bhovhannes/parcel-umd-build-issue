@@ -1,0 +1,22 @@
+{
+  "name": "parcel-umd",
+  "private": true,
+  "scripts": {
+    "build": "parcel build"
+  },
+  "targets": {
+    "app": {
+      "source": "src/app.js",
+      "optimize": true,
+      "context": "browser",
+      "includeNodeModules": true,
+      "distDir": "dist/"
+    }
+  },
+  "devDependencies": {
+    "parcel": "2.0.1"
+  },
+  "dependencies": {
+    "regenerator-runtime": "^0.13.9"
+  }
+}
